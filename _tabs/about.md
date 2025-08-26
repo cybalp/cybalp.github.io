@@ -8,7 +8,7 @@ order: 4
 >
 >Uzun yıllar başka sektörlerde kendimi eğitirken, zorluklar nedeniyle üniversiteye geç başladım. Siber güvenliğe merakım ise, 15-16 yaşlarında yanında çalışmış olduğum saygı değer bir abim vesilesiyle başladı. Üniversite okumaya karar verdim ancak üniversitenin insana **"katması gereken"** şeyleri katmadığının da bilincindeydim. Bu nedenle üniversitenin yanında hem teorik hem pratik anlamda kendimi geliştirmek için bir çok yol denedim.  
 >
->Zamanla karşılaşmış olduğum bu kadar çok bilginin arasında kaybolduğumu farkettiğimde "**öğrenmeyi öğrenmek**" mottosuyla karşılaştım. Bu nedenle kendime dijital not tutmak ve bunu sistematik bir şekilde yapabilmek için teknikler geliştirdim. İlerleyen vakitlerde bu teknikleri ve daha bir çok şeyi analiz etmek ve paylaşmak adına buradayım.
+>Zamanla karşılaşmış olduğum bu kadar çok bilginin arasında kaybolduğumu farkettiğimde "**öğrenmeyi öğrenmek**" mottosuyla karşılaştım. Bu nedenle kendime dijital not tutmak ve bunu sistematik bir şekilde yapabilmek için teknikler geliştirdim. İlerleyen vakitlerde bu teknikleri ve daha bir çok şeyi analiz etmek ve paylaşmak adına buradayım. Bu blog sayfasını bilgi yuvaaı yapma hedefim var.
 
 ---
 
@@ -48,6 +48,7 @@ Günümün büyük bir kısmını bilgisayarda geçiriyorum. Bunun yanında psik
 #### **[AttackDetector](https://github.com/cybalp/AttackDetector)**: 
 
 > 👀 ⚔️ Saldırı Simülasyonu Projesi ⚔️ 👀
+>
 > Bu proje kaynak kıtlığından doğmuştur. Siber Güvenlik alanına özel, kaynak katkısı amacıyla hazırlanmıştır.
 > ##### Amaç
 > - Suricata ve Snort mimarilerini inceleyerek, arka planda nasıl çalıştıklarını anlamak
@@ -111,7 +112,7 @@ Günümün büyük bir kısmını bilgisayarda geçiriyorum. Bunun yanında psik
 		- Öğrencilerin gelişimine katkıda bulunmak adına çeşitli eğitim postları hazırladım. 
 	- **Kazanımlar**
 		- Ekip Liderliği
-		- Öğretmen Yönetiminde Denetim
+		- Öğretmen Denetiminde Eğitim
 		- İçerik Stratejisi
 		- Sosyal Medya Yönetimi
 
