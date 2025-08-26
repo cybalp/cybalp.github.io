@@ -5,6 +5,7 @@ order: 4
 ---
 
 >**KISACA**
+>
 >Uzun yıllar başka sektörlerde kendimi eğitirken, zorluklar nedeniyle üniversiteye geç başladım. Siber güvenliğe merakım ise, 15-16 yaşlarında yanında çalışmış olduğum saygı değer bir abim vesilesiyle başladı. Üniversite okumaya karar verdim ancak üniversitenin insana **"katması gereken"** şeyleri katmadığının da bilincindeydim. Bu nedenle üniversitenin yanında hem teknik hem teorik anlamda kendimi geliştirmek için bir çok yol denedim.  
 >
 >Zamanla karşılaşmış olduğum bu kadar çok bilginin arasında kaybolduğumu farkettiğimde "**öğrenmeyi öğrenmek**" mottosuyla karşılaştım. Bu nedenle kendime dijital not tutmak ve bunu sistematik bir şekilde yapabilmek için teknikler geliştirdim.  İlerleyen vakitlerde bu teknikleri ve daha bir çok şeyi analiz etmek ve paylaşmak adına buradayım.
@@ -30,7 +31,7 @@ Günümün büyük bir kısmını bilgisayarda geçiriyorum. Bunun yanında psik
 
 
 
-## Yetenekler ve Projeler
+## Yetenekler
 
 - Linux 🟠
 - C 🔽
@@ -42,8 +43,9 @@ Günümün büyük bir kısmını bilgisayarda geçiriyorum. Bunun yanında psik
 - IDS - IPS Sistemleri 🟠
 - Sosyal Mühendislik 🟠
 
+## Projeler
 
-### **[AttackDetector](https://github.com/cybalp/AttackDetector)**: 
+#### **[AttackDetector](https://github.com/cybalp/AttackDetector)**: 
 
 > 👀 ⚔️ Saldırı Simülasyonu Projesi ⚔️ 👀
 > Bu proje kaynak kıtlığından doğmuştur. Siber Güvenlik alanına özel, kaynak katkısı amacıyla hazırlanmıştır.
@@ -85,7 +87,7 @@ Günümün büyük bir kısmını bilgisayarda geçiriyorum. Bunun yanında psik
 </table>
 ---
 
-## Sık Kullanılan Araçlar ve Yararlılar Listesi
+## Sık Kullanılan Araçlar ve **benim için yararlılar** Listesi
 
 - GitHub
 - Obsidian
