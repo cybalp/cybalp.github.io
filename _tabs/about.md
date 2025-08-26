@@ -18,7 +18,7 @@ Siyah bir şapkam yok ancak annelerimizin meşhur "Beyaz alma, çabuk kirlenir..
 
 Ve evet, maalesef **Arch** kullanıyorum. Linux bağımlısıyım ve reddit üzerinden paylaşılan **r/LinuxPorn** tagin de kaybolmadığım sıralarda, kendi düzenlemelerimi yapıyorum. Henüz hazır değil, ancak bir [dotfiles](https://github.com/cybalp/dotfiles) hedefim var. Burayı şimdilik yaptığım ayarlamaların kaybolmaması için kullanıyorum.
 
-Günümün büyük bir kısmını bilgisayarda geçiyorum. Bunun yanında psikoloji alanına sempatim var. "Yıl 2025 kitap okuyan kaldı mı??" Evet. Psikoloji türünde kitaplar okumayı, **Sosyal Mühendislik** alanında beni geliştirdiği için yararlı buluyorum. Bilgisayar oyunlarına merakım olduğu söylenemez. Satranç ve futbol haricinde pek oyun oynamam. Sıkılırsam, film izler ya da arkadaşlarımla dışarıya çıkarım.. 
+Günümün büyük bir kısmını bilgisayarda geçiriyorum. Bunun yanında psikoloji alanına sempatim var. "Yıl 2025 kitap okuyan kaldı mı??" Evet. Psikoloji türünde kitaplar okumayı, **Sosyal Mühendislik** alanında beni geliştirdiği için yararlı buluyorum. Bilgisayar oyunlarına merakım olduğu söylenemez. Satranç ve futbol haricinde pek oyun oynamam. Sıkılırsam, film izler ya da arkadaşlarımla dışarıya çıkarım.. 
 
 İşin özü;
 
