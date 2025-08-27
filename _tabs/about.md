@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-{% include embed/youtube.html id="d_HlPboLRL8&list=RDd_HlPboLRL8&start_radio=1" %}
+{% include embed/youtube.html id="d_HlPboLRL8" %}
 
 >**KISACA**
 >
