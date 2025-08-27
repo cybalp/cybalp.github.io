@@ -1,4 +1,5 @@
 #  Sharing options at the bottom of the post.
+
 #  Icons from <https://fontawesome.com/>
 
 platforms:
@@ -14,16 +15,10 @@ platforms:
     icon: "fab fa-telegram"
     link: "https://t.me/share/url?url=URL&text=TITLE"
 
-  # Uncomment below if you need to.
-  #
   - type: Linkedin
     icon: "fab fa-linkedin"
     link: "https://www.linkedin.com/sharing/share-offsite/?url=URL"
-  #
-  # - type: Weibo
-  #   icon: "fab fa-weibo"
-  #   link: "https://service.weibo.com/share/share.php?title=TITLE&url=URL"
-  #
+
   - type: Mastodon
     icon: "fa-brands fa-mastodon"
     # See: https://github.com/justinribeiro/share-to-mastodon#properties
@@ -36,11 +31,7 @@ platforms:
         link: "https://fosstodon.org/"
       - label: photog.social
         link: "https://photog.social/"
-  #
-  # - type: Bluesky
-  #   icon: "fa-brands fa-bluesky"
-  #   link: "https://bsky.app/intent/compose?text=TITLE%20URL"
-  #
+
   - type: Reddit
     icon: "fa-brands fa-square-reddit"
     link: "https://www.reddit.com/submit?url=URL&title=TITLE"
@@ -48,3 +39,13 @@ platforms:
   # - type: Threads
   #   icon: "fa-brands fa-square-threads"
   #   link: "https://www.threads.net/intent/post?text=TITLE%20URL"
+  #
+  # - type: Weibo
+  #   icon: "fab fa-weibo"
+  #   link: "https://service.weibo.com/share/share.php?title=TITLE&url=URL"
+  #
+  #
+  # - type: Bluesky
+  #   icon: "fa-brands fa-bluesky"
+  #   link: "https://bsky.app/intent/compose?text=TITLE%20URL"
+  #

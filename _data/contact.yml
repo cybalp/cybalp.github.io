@@ -1,5 +1,7 @@
 #  The contact options.
 
+# icons powered by <https://fontawesome.com/>
+
 - type: github
   icon: "fab fa-github"
 
@@ -7,9 +9,13 @@
   icon: "fa-brands fa-x-twitter"
 
 - type: linkedin
-  icon: "fab fa-linkedin" # icons powered by <https://fontawesome.com/>
-  url: "https://www.linkedin.com/in/alpulkegul" # Fill with your Linkedin homepage
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/alpulkegul"
 
+- type: instagram
+  icon: "fa-brands fa-instagram"
+  url: "https://www.instagram.com/alpulkegul"
+#
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
 #   url:  ''                  # Fill with your stackoverflow homepage
@@ -21,11 +27,3 @@
 # - type: reddit
 #   icon: 'fa-brands fa-reddit'
 #   url: ''                   # Fill with your Reddit profile link
-#
-# - type: threads
-#   icon: 'fa-brands fa-threads'
-#   url: ''                   # Fill with your Threads profile link
-
-- type: instagram
-  icon: "fa-brands fa-instagram"
-  url: "https://www.instagram.com/alpulkegul"
