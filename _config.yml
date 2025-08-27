@@ -93,7 +93,6 @@ social_preview_image: "assets/img/alp.jpeg" # string, local or CORS resources
 toc: true
 
 comments:
-  # Global switch for the post-comment system. Keeping it empty means disabled.
   provider: "giscus"
   # Giscus options › https://giscus.app
   giscus:

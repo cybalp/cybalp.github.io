@@ -4,10 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-<audio controls>
-  <source src="/assets/music/AURORA - Runaway.mp3" type="audio/mpeg">
-  Tarayıcınız ses etiketini desteklemiyor.
-</audio>
+{% include embed/audio.html src="/assets/music/AURORA - Runaway.mp3" title="AURORA - Runaway" %}
 
 >**KISACA**
 >

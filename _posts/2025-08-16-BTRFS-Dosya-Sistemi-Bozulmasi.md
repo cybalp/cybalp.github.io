@@ -6,10 +6,7 @@ categories: [Olay Analizleri, Rapor]
 tags: [Sistem Kurtarma, BTRFS, Dosya Sistemleri]
 ---
 
-<audio controls>
-  <source src="/assets/music/Desperado.mp3" type="audio/mpeg">
-  Tarayıcınız ses etiketini desteklemiyor
-</audio>
+{% include embed/youtube.html id="VH8RoWfklg4" %}
 
 ## OLAY ÖZETİ
 
