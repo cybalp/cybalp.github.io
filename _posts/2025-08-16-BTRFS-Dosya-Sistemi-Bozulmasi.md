@@ -6,6 +6,11 @@ categories: [Olay Analizleri, Rapor]
 tags: [Sistem Kurtarma, BTRFS, Dosya Sistemleri]
 ---
 
+<audio controls>
+  <source src="/assets/music/Desperado.mp3" type="audio/mpeg">
+  Tarayıcınız ses etiketini desteklemiyor.
+</audio>
+
 ## OLAY ÖZETİ
 
 Son kullanıcının bilgisayarı, herhangi bir görünür sorun yokken kapatıldı. Saatler sonra tekrardan bilgisayar açıldığında disk şifresi girildikten sonra "emergency shell" (acil durum kabuğu) ekranında kaldı. Sistem, "root" dosya sistemini bağlayamadığını belirten kritik hatalar (`mount: ... fsconfig() failed`, `ERROR: Failed to mount 'UUID=...'`) gösterdi. 
