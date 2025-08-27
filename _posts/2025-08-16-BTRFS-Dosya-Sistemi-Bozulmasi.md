@@ -16,7 +16,7 @@ Bu rapor, olayın adım adım analizini, kök nedenin belirlenmesini ve sorunun 
 
 Bilgisayarın önyükleme sırasında "emergency shell" ekranına düştüğü görüldü. Hata mesajı, sistemin UUID'si (`UUID=9d...`) ile belirtilen kök bölümünü bağlayamadığını gösteriyordu.
 
-![[img/hatamesaji.png]]
+![hata mesajı](img/hatamesaji.png)
 
 **İlk Hipotez**
 
@@ -26,7 +26,7 @@ Sorun, /etc/fstab dosyasındaki bir UUID (Universally Unique Identifier) yanlı�
 
 Olayı analiz etmek ve sistemi kurtarmak için **Arch Linux Live** ortamı kullanıldı. Bu, şüpheli sistemden bağımsız olarak teşhis yapma imkanı sağladı. 
 
-![[img/liveortami.png]]
+![live ortamı](img/liveortami.png)
 
 **1. Adım: Disk Bölümlerinin Tespiti**
 
@@ -34,11 +34,11 @@ Olayı analiz etmek ve sistemi kurtarmak için **Arch Linux Live** ortamı kulla
 - EFI sistemi olarak kullanılan bölüm -> `nvme0n1p1`
 - Linux Dosya Sistemi -> `nvme0n1p2`
 
-![[img/fdisk -l command.png]]
+![fdisk -l komutu](img/fdisk -l command.png)
 
 Ardından `blkid` komutu ile UUID taraması yapıldı. `/dev/nvme0n1p2` diskinin doğru UUID'sinin `645f...` olduğu tespit edildi. Bu da önyükleme hatasındaki `9d...` UUID'sinden farklıydı. Ayrıca diskin LUKS ile şifrelendiği de biliniyordu.
 
-![[img/blkid command.png]]
+![blkid komutu](img/blkid command.png)
 
 **2. Adım: Şifreli Bölümü Açma**
 
@@ -55,7 +55,7 @@ LUKS ile şifreli part'ı (`/dev/nvme0n1p2`), `cryptsetup` komutu ile önce açm
 `sudo mkdir /mnt/archiso`
 `sudo mount /dev/mapper/cryptroot /mnt/archiso`
 
-![[img/mount.png]]
+![mount komutu](img/mount.png)
 
 Yukarıdaki hata ile karşılaştım.
 
@@ -81,15 +81,15 @@ Onarımı, disk henüz Live ortamımıza bağlı değilken yapmamız gerekiyor k
 
 Yukarıdaki komut ile hasarlı dosya sistemini onarmaya çalıştım. Riskli bir durum olduğu ve veri kaybına sebep olacağı şeklinde bir uyarı aldım. Eğer diskimde düşündüğümün aksine donanımsal bir hata olsaydı, verilerimi kaybedebilirdim. Ancak 'kişisel tercihim' olarak bunu göze aldım ve devam ettim. 
 
-![[img/diskonarilmasi.png]]
+![diskin onarılması](img/diskonarilmasi.png)
 
 `sudo mount /dev/mapper/cryptroot /mnt/archiso` komutunu tekrar çalıştırdım ve herhangi bir hata ile karşılaşmadım. 
 
-![[img/mounttry.png]]
+![Tekrar mount denemesi](img/mounttry.png)
 
 `sudo nano /mnt/cryptroot/@/etc/fstab` komutunu kullanarak dosyayı düzenledim.  
 
-![[img/diskonarilmasi2.png]]
+![diskin onarilmasi 2](img/diskonarilmasi2.png)
 
 Görmüş olduğumuz gibi diğer üç satır, sırasıyla `/home`, `/var/cache` ve `/var/log` gibi alt dizinleri işaret ediyor. Bunların hepsi aynı UUID'yi kullanıyor çünkü BTRFS dosya sistemi **alt bölümleri (subvolumes)** destekler ve bu alt bölümlerin hepsi aynı temel diskin üzerinde bulunur.
 
