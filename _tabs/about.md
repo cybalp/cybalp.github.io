@@ -6,7 +6,7 @@ order: 4
 
 {% include embed/youtube.html id="d_HlPboLRL8" %}
 
->**KISACA**
+>*KISACA*
 >
 >Uzun yıllar başka sektörlerde kendimi eğitirken, zorluklar nedeniyle üniversiteye geç başladım. Siber güvenliğe merakım ise, 15-16 yaşlarında yanında çalışmış olduğum saygı değer bir abim vesilesiyle başladı. Üniversite okumaya karar verdim ancak üniversitenin insana **"katması gereken"** şeyleri katmadığının da bilincindeydim. Bu nedenle üniversitenin yanında hem teorik hem pratik anlamda kendimi geliştirmek için bir çok yol denedim.  
 >
