@@ -8,7 +8,7 @@ tags: [Sistem Kurtarma, BTRFS, Dosya Sistemleri]
 
 <audio controls>
   <source src="/assets/music/Desperado.mp3" type="audio/mpeg">
-  Tarayıcınız ses etiketini desteklemiyor.
+  Tarayıcınız ses etiketini desteklemiyor
 </audio>
 
 ## OLAY ÖZETİ
