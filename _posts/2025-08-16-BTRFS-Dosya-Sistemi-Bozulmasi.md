@@ -10,7 +10,7 @@ tags: [Sistem Kurtarma, BTRFS, Dosya Sistemleri]
 
 ## OLAY ÖZETİ
 
-Son kullanıcının bilgisayarı, herhangi bir görünür sorun yokken kapatıldı. Saatler sonra tekrardan bilgisayar açıldığında disk şifresi girildikten sonra "emergency shell" (acil durum kabuğu) ekranında kaldı. Sistem, "root" dosya sistemini bağlayamadığını belirten kritik hatalar (`mount: ... fsconfig() failed`, `ERROR: Failed to mount 'UUID=...'`) gösterdi. 
+Son kullanıcının bilgisayarı, herhangi bir görünür sorun yokken kapatıldı. Saatler sonra tekrardan bilgisayar açıldığında disk şifresi girildikten sonra "emergency shell" (acil durum kabuğu) ekranında kaldı. Sistem, "root" dosya sistemini bağlayamadığını belirten kritik hatalar (`mount: ... fsconfig() failed`, `ERROR: Failed to mount 'UUID=...'`) gösterdi.. 
 
 Bu rapor, olayın adım adım analizini, kök nedenin belirlenmesini ve sorunun çözülmesi için uygulanan teknik adımları detaylandırmaktadır.
 
