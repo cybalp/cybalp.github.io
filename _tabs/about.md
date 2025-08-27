@@ -112,7 +112,7 @@ Günümün büyük bir kısmını bilgisayarda geçiriyorum. Bunun yanında psik
 	- **Ne yaptım?**
 		- Çeşitli etkinlikler düzenledim ve yönettim.
 		- Sosyal Medya'da çeşitli düzenlemeler yaptım ve daha aktif bir sosyal medya kullanımı sundum.
-		- Yapılan etkinliklerin Sosyal Medya duyurularını hazırlandım.
+		- Yapılan etkinliklerin Sosyal Medya duyurularını hazırladım.
 		- Sosyal Mühendislik, Kişisel Güvenlik konularında eğitimler verdim ve verilen eğitimlere katkıda bulundum.
 		- Öğrencilerin gelişimine katkıda bulunmak adına çeşitli eğitim postları hazırladım. 
 	- **Kazanımlar**
