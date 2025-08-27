@@ -1,12 +1,8 @@
+---
+---
+
 @use 'main
 {%- if jekyll.environment == ' production ' -%}
   .bundle
 {%- endif -%}
 ';
-
-/* append your custom style below */
-
-.toc-list {
-  font-family: 'Times New Roman', serif;
-  opacity: 0.8;
-}
