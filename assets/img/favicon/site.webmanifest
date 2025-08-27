@@ -1,6 +1,6 @@
 {
-  "name": "cyberotocol",
-  "short_name": "Blog",
+  "name": "cybalp",
+  "short_name": "cybalp",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
@@ -15,7 +15,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#2d0202",
-  "background_color": "#252222",
+  "theme_color": "#c9c9c9",
+  "background_color": "#ebdfdf",
   "display": "standalone"
 }
