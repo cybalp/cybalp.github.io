@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-{% include embed/audio.html src="/assets/music/AURORA - Runaway.mp3" title="AURORA - Runaway" %}
+{% include embed/youtube.html id="d_HlPboLRL8&list=RDd_HlPboLRL8&start_radio=1" %}
 
 >**KISACA**
 >
